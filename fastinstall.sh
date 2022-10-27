@@ -8,7 +8,7 @@ if [ -d "zshrc" ]; then
 fi
 
 # Clone repo
-git clone "https://github.com/hykilpikonna/zshrc"
+git clone "https://github.com/Edenmi/zshrc"
 
 # Addline function: add a line to a file if the line doesn't already exist
 addline() {
