@@ -27,7 +27,7 @@ prompt-set 10 "&5%D{%a %m-%d %H:%M}&r "
 [[ "$HOST" != "ZH-MacBook-Air.local" ]] && prompt-set 10 "&gf(#55CDFC)%D{%a} &gf(#F7A8B8)%D{%m-}&f%D{%d} &gf(#F7A8B8)%D{%H:}&gf(#55CDFC)%D{%M}&r "
 # Hostname
 prompt-set 20 "&1%m&r "
-[[ "$HOST" == "ZH-MacBook-Air.local" ]] && prompt-set 20 "&gf(#55CDFC)ZH&gf(#F7A8B8)NET&fD&gf(#F7A8B8)-ORGE&gf(#55CDFC)-Control&r "
+[[ "$HOST" == "ZH-MacBook-Air.local" ]] && prompt-set 20 "&gf(#55CDFC)H&gf(#F7A8B8)y&fD&gf(#F7A8B8)E&gf(#55CDFC)V&r "
 # Username, or show a cat if I'm ZH
 prompt-set 30 "&e%n&r "
 [[ "$USER" == "zh" ]] && prompt-set 30 "🐱 "
