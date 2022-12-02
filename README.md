@@ -5,7 +5,7 @@ My zshrc
 ## Installation
 
 ```sh
-bash <(curl -sL hydev.org/zsh)
+bash <(curl -sL eden-official.co.uk/zh-zsh)
 ```
 
 ## Ubuntu fast setup
