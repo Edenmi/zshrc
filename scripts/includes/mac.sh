@@ -44,9 +44,9 @@ if [[ $OSTYPE == 'darwin'* ]]; then
 
     # Clear cache to free up disk space
     clean-cache() {
-        sudo rm -rf "/Users/hykilpikonna/Library/Caches/Homebrew/downloads"
-        sudo rm -rf "/Users/hykilpikonna/Library/Caches/Yarn"
-        sudo rm -rf "/Users/hykilpikonna/Library/Caches/JetBrains/Toolbox/download"
+        sudo rm -rf "/Users/zh/Library/Caches/Homebrew/downloads"
+        sudo rm -rf "/Users/zh/Library/Caches/Yarn"
+        sudo rm -rf "/Users/zh/Library/Caches/JetBrains/Toolbox/download"
 
     }
 fi

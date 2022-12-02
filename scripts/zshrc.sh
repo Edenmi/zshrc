@@ -76,7 +76,7 @@ alias gpu-temp='while sleep 1; do clear; gpustat; done'
 alias cpu-temp='s-tui'
 alias mine='sudo lolminer --algo ETHASH --pool stratum+ssl://daggerhashimoto.auto.nicehash.com:443 --user=3AcCeSHHwWJRf945iKCbxZ8cjUvy7Tmg3g.Daisy-lol'
 alias mine-zel='sudo lolminer --algo ZEL --pers BgoldPoW --pool stratum+tcp://zelhash.auto.nicehash.com:9200 --user=3AcCeSHHwWJRf945iKCbxZ8cjUvy7Tmg3g.Daisy-lol'
-alias mount-external='sudo mount -t cifs //192.168.2.1/external /smb/external -o rw,user=azalea,uid=1000,gid=1000,pass='
+#alias mount-external='sudo mount -t cifs //192.168.2.1/external /smb/external -o rw,user=azalea,uid=1000,gid=1000,pass='
 
 alias ds-clean="find . -name '.DS_Store' -delete -print"
 alias dotclean="find . -name '._*' -delete -print"
@@ -88,7 +88,7 @@ alias btrfs-fs-progress="sudo watch -d sudo btrfs fi us"
 alias btrfs-balance-progress="sudo watch -d btrfs balance status"
 
 alias catt="echo 🐱"
-alias old-update-ssh-keys="curl -L https://github.com/Hykilpikonna.keys > ~/.ssh/authorized_keys"
+alias old-update-ssh-keys="curl -L https://github.com/Edenmi.keys > ~/.ssh/authorized_keys"
 
 compress-zst() {
     cores=$(grep -c ^processor /proc/cpuinfo)
