@@ -5,7 +5,7 @@ My zshrc
 ## Installation
 
 ```sh
-bash <(curl -sL eden-official.co.uk/zh-zsh)
+bash <(curl -sL https://raw.githubusercontent.com/Edenmi/zshrc/HEAD/fastinstall.sh)
 ```
 
 ## Ubuntu fast setup
