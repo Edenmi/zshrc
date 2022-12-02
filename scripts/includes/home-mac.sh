@@ -1,5 +1,5 @@
 # Home mac only
-if [[ $HOST == 'HyDEV' ]]; then
+if [[ $OSTYPE == 'darwin'* ]] && [[ $HOST == 'HyDEV' ]]; then
     export PATH=/Users/zh/Library/Python/3.9/bin:$PATH
     export PATH=/usr/local/bin:$PATH
     export PATH=/Users/zh/audio-orchestrator-ffmpeg/bin:$PATH
