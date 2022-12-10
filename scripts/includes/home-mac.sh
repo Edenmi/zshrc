@@ -5,6 +5,7 @@ if [[ $OSTYPE == 'darwin'* ]] && [[ $HOST == 'HyDEV' ]]; then
     export PATH=/Users/zh/audio-orchestrator-ffmpeg/bin:$PATH
     export PATH=/Users/zh/Downloads/platform-tools:$PATH
     export GPG_TTY=$(tty)
+    export CODE_SIGN_INJECT_BASE_ENTITLEMENTS=YES
     
 fi
 
@@ -14,4 +15,3 @@ if [ -S "${GPG_AGENT_INFO%%:*}" ]; then
     export SSH_AUTH_SOCK
     export SSH_AGENT_PID
 fi
-
