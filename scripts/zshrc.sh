@@ -167,12 +167,14 @@ for f in $SCR/includes/*; do source $f; done
 # Set proxy
 setproxy() {
     addr=${1:-127.0.0.1}
-    port=${2:-7890}
-    full="$addr:$port"
-    export https_proxy="http://$full"
-    export http_proxy="http://$full"
-    export all_proxy="socks5://$full"
-    color "&aUsing proxy! $full&r"
+    http-port=${2:-12445}
+    socks-port=${2:-12446}
+    http-p="$addr:$http-port"
+    socks-p="$addr:$socks-port"
+    export https_proxy="http://$http-p"
+    export http_proxy="http://$http-p"
+    export all_proxy="socks5://$socks-p"
+    color "&aUsing proxy! $socks-p&r"
 
     prompt-set 30 "🌎 "
     prompt-update
