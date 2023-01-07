@@ -1,6 +1,7 @@
 # Home mac only
 if [[ $OSTYPE == 'darwin'* ]] && [[ $HOST == 'HyDEV' ]]; then
     export PATH=/Users/zh/Library/Python/3.9/bin:$PATH
+    export PATH=/Users/zh/zulu17/bin:$PATH
     export PATH=/usr/local/bin:$PATH
     export PATH=/Users/zh/audio-orchestrator-ffmpeg/bin:$PATH
     export PATH=/Users/zh/Downloads/platform-tools:$PATH
