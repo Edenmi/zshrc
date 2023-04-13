@@ -27,7 +27,7 @@ prompt-set 10 "&5%D{%a %m-%d %H:%M}&r "
 [[ "$HOST" != "ASH-Tech" ]] && prompt-set 10 "&gf(#55CDFC)%D{%a} &gf(#F7A8B8)%D{%m-}&f%D{%d} &gf(#F7A8B8)%D{%H:}&gf(#55CDFC)%D{%M}&r "
 # Hostname
 prompt-set 20 "&1%m&r "
-[[ "$HOST" == "ASH-Tech" ]] && prompt-set 20 "&gf(#55CDFC)Z&gf(#F7A8B8)H &fD&gf(#F7A8B8)E&gf(#55CDFC)V&r "
+[[ "$HOST" == "ASH-Tech" ]] && prompt-set 20 "&gf(#55CDFC)AS&gf(#F7A8B8)H &fT&gf(#F7A8B8)EC&gf(#55CDFC)H&r "
 # Username, or show a cat if I'm ZH
 prompt-set 30 "&e%n&r "
 [[ "$USER" == "ash" ]] && prompt-set 30 "🐱 "
